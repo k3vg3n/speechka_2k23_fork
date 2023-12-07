@@ -127,12 +127,14 @@ const menuDef = computed(() => [{
 		text: i18n.ts.sounds,
 		to: '/settings/sounds',
 		active: currentPage?.route.name === 'sounds',
-	}, {
-		icon: 'ti ti-plug',
-		text: i18n.ts.plugins,
-		to: '/settings/plugin',
-		active: currentPage?.route.name === 'plugin',
-	}],
+	}, 
+	// {
+	// 	icon: 'ti ti-plug',
+	// 	text: i18n.ts.plugins,
+	// 	to: '/settings/plugin',
+	// 	active: currentPage?.route.name === 'plugin',
+	// }
+],
 }, {
 	title: i18n.ts.otherSettings,
 	items: [{
@@ -145,17 +147,20 @@ const menuDef = computed(() => [{
 		text: i18n.ts.muteAndBlock,
 		to: '/settings/mute-block',
 		active: currentPage?.route.name === 'mute-block',
-	}, {
-		icon: 'ti ti-api',
-		text: 'API',
-		to: '/settings/api',
-		active: currentPage?.route.name === 'api',
-	}, {
-		icon: 'ti ti-webhook',
-		text: 'Webhook',
-		to: '/settings/webhook',
-		active: currentPage?.route.name === 'webhook',
-	}, {
+	}, 
+	// {
+	// 	icon: 'ti ti-api',
+	// 	text: 'API',
+	// 	to: '/settings/api',
+	// 	active: currentPage?.route.name === 'api',
+	// }, 
+	// {
+	// 	icon: 'ti ti-webhook',
+	// 	text: 'Webhook',
+	// 	to: '/settings/webhook',
+	// 	active: currentPage?.route.name === 'webhook',
+	// }, 
+	{
 		icon: 'ti ti-package',
 		text: i18n.ts.importAndExport,
 		to: '/settings/import-export',

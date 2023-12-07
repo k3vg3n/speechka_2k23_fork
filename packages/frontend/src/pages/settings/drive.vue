@@ -43,14 +43,14 @@ SPDX-License-Identifier: AGPL-3.0-only
 			<MkSwitch v-model="keepOriginalUploading">
 				<template #label>{{ i18n.ts.keepOriginalUploading }}</template>
 				<template #caption>{{ i18n.ts.keepOriginalUploadingDescription }}</template>
-			</MkSwitch>
+			<!-- </MkSwitch>
 			<MkSwitch v-model="alwaysMarkNsfw" @update:modelValue="saveProfile()">
 				<template #label>{{ i18n.ts.alwaysMarkSensitive }}</template>
-			</MkSwitch>
-			<MkSwitch v-model="autoSensitive" @update:modelValue="saveProfile()">
+			</MkSwitch> -->
+			<!-- <MkSwitch v-model="autoSensitive" @update:modelValue="saveProfile()">
 				<template #label>{{ i18n.ts.enableAutoSensitive }}<span class="_beta">{{ i18n.ts.beta }}</span></template>
 				<template #caption>{{ i18n.ts.enableAutoSensitiveDescription }}</template>
-			</MkSwitch>
+			</MkSwitch> -->
 		</div>
 	</FormSection>
 </div>
